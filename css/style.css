@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: #0a0c1b;
+  line-height: 1.2;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+  height: 400px;
+  background: #1c1938;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card .img {
+  background: url('../images/image-header-desktop.jpg') no-repeat center center /
+    cover;
+}
+
+.card .content {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .content .prime {
+  color: #ae5cdc;
+}
+
+.card .content .number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .content .sub-text {
+  color: gray;
+}
+
+.number-text {
+  margin-top: 10px;
+  color: gray;
+}
+
+.attribution {
+  text-align: center;
+}
